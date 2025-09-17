@@ -58,5 +58,17 @@
     "email": "mihai@test.com",
     "phone": "0723423464",
     "preferredCar": "Audi A6, 2024, SUV electric, 48570 EUR, disponibil în Galați, Sibiu și Suceava, cu plafon panoramic, pachet de remorcare și cameră de marșarier"
+  },
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "preferredCar": "Audi A6, anul 2022, pretul de 68059 EUR, tip Sedan, combustibil Benzina, cu Adaptive Cruise, Backup Camera, Wireless Charging, Heated Seats, Fast Charging"
+  },
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "preferredCar": "Audi A6, anul 2022, pretul de 68059 EUR, tip Sedan, combustibil Benzina, cu Adaptive Cruise, Backup Camera, Wireless Charging, Heated Seats, Fast Charging. Mai pot sa te ajut cu altceva?"
   }
 ]

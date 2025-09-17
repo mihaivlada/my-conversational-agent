@@ -13,6 +13,11 @@ export const Agent = (props: any) => {
     const [errorMessage, setErrorMessage] = useState("");
 
     const agentId: string = process.env.NEXT_PUBLIC_AGENT_ID!;
+    const dynamicVariables = {
+        user_name: "John Doe",
+        user_email: "john.doe@example.com",
+        user_phone: "+1234567890",
+    };
 
     const saveUser = async (userInfo: UserInfo) => {
         try {
@@ -36,27 +41,16 @@ export const Agent = (props: any) => {
             if (match) {
                 const preferredCar = match[1].split(". Dore")[0].trim();
                 saveUser({
-                    name: props.dynamicVariables.user_name,
-                    email: props.dynamicVariables.user_email,
-                    phone: props.dynamicVariables.user_phone,
+                    name: dynamicVariables.user_name,
+                    email: dynamicVariables.user_email,
+                    phone: dynamicVariables.user_phone,
                     preferredCar,
                 });
             }
         },
-        // onToolCall: (toolCall: any) => {
-        //     console.log("Tool call:", toolCall);
-        //     debugger;
-        // },
-        // clientTools: {
-        //     saveUserInfo: (userInfo: any) => {
-        //         debugger;
-        //         console.log("Client tool 'saveUserInfo' called with:", userInfo);
-        //     },
-        // },
-        // onUnhandledClientToolCall: (toolCall) => {
-        //     debugger;
-        //     console.log("Unhandled client tool call:", toolCall);
-        // },
+        onDisconnect: (error) => {
+            console.log("Conversation disconnected:", error);
+        },
     });
 
     const { status } = conversation;
@@ -86,15 +80,13 @@ export const Agent = (props: any) => {
         setMessages((prev) => [...prev, { text: input, isAgent: false }]);
 
         try {
-            await conversation.sendUserMessage(input);
+            conversation.sendUserMessage(input);
         } catch (err) {
             setErrorMessage((err as Error).message);
         }
 
         setInput("");
     };
-
-    useEffect(() => {}, []);
 
     return (
         <div className="flex flex-col items-center gap-4">
