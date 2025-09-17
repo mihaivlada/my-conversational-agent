@@ -4,7 +4,6 @@ import { useConversation } from "@elevenlabs/react";
 import { useEffect, useState } from "react";
 import { Message } from "./message";
 import { UserInfo } from "../lib/saveUserInfo";
-import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Agent = (props: any) => {
@@ -59,14 +58,6 @@ export const Agent = (props: any) => {
         //     console.log("Unhandled client tool call:", toolCall);
         // },
     });
-
-    useEffect(() => {
-        const saveUserInfoToolId = process.env.NEXT_PUBLIC_TOOL_ID;
-        const client = new ElevenLabsClient({ apiKey: process.env.ELEVENLABS_API_KEY! });
-        client.conversationalAi.tools.get(saveUserInfoToolId!).then((tool) => {
-            console.log("Fetched tool:", tool);
-        });
-    }, []);
 
     const { status } = conversation;
 
