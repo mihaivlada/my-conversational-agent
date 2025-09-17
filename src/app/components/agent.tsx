@@ -62,7 +62,7 @@ export const Agent = (props: any) => {
 
     useEffect(() => {
         const saveUserInfoToolId = process.env.NEXT_PUBLIC_TOOL_ID;
-        const client = new ElevenLabsClient({ apiKey: process.env.NEXT_PUBLIC_ELEVENLABS_API_KEY! });
+        const client = new ElevenLabsClient({ apiKey: process.env.ELEVENLABS_API_KEY! });
         client.conversationalAi.tools.get(saveUserInfoToolId!).then((tool) => {
             console.log("Fetched tool:", tool);
         });
