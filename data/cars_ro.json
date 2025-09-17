@@ -1,0 +1,2054 @@
+{
+  "cars": [
+    {
+      "id": "car001",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2022,
+      "price": 26213,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "București",
+        "Oradea",
+        "Brăila"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Backup Camera",
+        "Lane Assist",
+        "Autopilot",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car002",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2021,
+      "price": 51360,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Brașov",
+        "Sibiu",
+        "Bacău"
+      ],
+      "features": [
+        "Bluetooth",
+        "Adaptive Cruise",
+        "Sunroof",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car003",
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2023,
+      "price": 57743,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Brașov",
+        "Ploiești",
+        "Cluj-Napoca"
+      ],
+      "features": [
+        "Bluetooth",
+        "Adaptive Cruise",
+        "Fast Charging",
+        "Lane Assist",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car004",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2018,
+      "price": 79506,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Ploiești",
+        "Arad",
+        "Cluj-Napoca",
+        "Brăila"
+      ],
+      "features": [
+        "Leather Seats",
+        "Backup Camera",
+        "Lane Assist",
+        "Panoramic Sunroof",
+        "Sunroof",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car005",
+      "make": "Ford",
+      "model": "Edge",
+      "year": 2021,
+      "price": 49546,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Sibiu",
+        "Craiova",
+        "Bacău"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "AWD",
+        "Wireless Charging",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car006",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2018,
+      "price": 45129,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Cluj-Napoca",
+        "Oradea",
+        "Suceava",
+        "Arad"
+      ],
+      "features": [
+        "Backup Camera",
+        "AWD",
+        "Leather Seats",
+        "Panoramic Sunroof",
+        "Tow Package",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car007",
+      "make": "Dacia",
+      "model": "Sandero",
+      "year": 2019,
+      "price": 25694,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Arad",
+        "Cluj-Napoca"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Adaptive Cruise",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car008",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2022,
+      "price": 26358,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Brașov",
+        "Suceava"
+      ],
+      "features": [
+        "Autopilot",
+        "Heated Seats",
+        "Bluetooth",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car009",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2023,
+      "price": 26420,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Ploiești",
+        "Brăila"
+      ],
+      "features": [
+        "Lane Assist",
+        "Leather Seats",
+        "AWD",
+        "Panoramic Sunroof",
+        "Navigation",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car010",
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2021,
+      "price": 49677,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Brașov",
+        "Bacău"
+      ],
+      "features": [
+        "Heated Seats",
+        "Panoramic Sunroof",
+        "Navigation",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car011",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2024,
+      "price": 24180,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Brăila",
+        "Cluj-Napoca",
+        "Ploiești",
+        "București"
+      ],
+      "features": [
+        "AWD",
+        "Fast Charging",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car012",
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2021,
+      "price": 61200,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Bacău",
+        "Cluj-Napoca"
+      ],
+      "features": [
+        "Navigation",
+        "Autopilot",
+        "Tow Package",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car013",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2024,
+      "price": 77779,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Bacău",
+        "Galați"
+      ],
+      "features": [
+        "Backup Camera",
+        "Wireless Charging",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car014",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2023,
+      "price": 63277,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "Brașov",
+        "Ploiești",
+        "Sibiu"
+      ],
+      "features": [
+        "Sunroof",
+        "Fast Charging",
+        "Wireless Charging",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car015",
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "year": 2020,
+      "price": 45132,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Brăila",
+        "Bacău"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Lane Assist",
+        "Leather Seats",
+        "Fast Charging",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car016",
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2024,
+      "price": 76157,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Arad",
+        "București"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Tow Package",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car017",
+      "make": "Toyota",
+      "model": "RAV4",
+      "year": 2018,
+      "price": 78610,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Sibiu",
+        "Suceava",
+        "Iași"
+      ],
+      "features": [
+        "Navigation",
+        "Sunroof",
+        "Heated Seats",
+        "Autopilot",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car018",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2024,
+      "price": 76480,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Iași",
+        "Arad",
+        "Brașov",
+        "Suceava"
+      ],
+      "features": [
+        "Leather Seats",
+        "Backup Camera",
+        "Sunroof",
+        "Lane Assist",
+        "Heated Seats",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car019",
+      "make": "Honda",
+      "model": "Pilot",
+      "year": 2023,
+      "price": 14658,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Brăila",
+        "Oradea",
+        "Arad",
+        "Constanța"
+      ],
+      "features": [
+        "Sunroof",
+        "Fast Charging",
+        "Wireless Charging",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car020",
+      "make": "Tesla",
+      "model": "Model Y",
+      "year": 2023,
+      "price": 40804,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Oradea",
+        "Constanța",
+        "Timișoara"
+      ],
+      "features": [
+        "AWD",
+        "Lane Assist",
+        "Adaptive Cruise",
+        "Panoramic Sunroof",
+        "Backup Camera",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car021",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": 2019,
+      "price": 10541,
+      "type": "SUV",
+      "fuel": "Hybrid",
+      "location": [
+        "Brașov",
+        "Timișoara",
+        "Brăila"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Navigation",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car022",
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2020,
+      "price": 13143,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Iași",
+        "Craiova"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Lane Assist",
+        "Leather Seats",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car023",
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "year": 2019,
+      "price": 71143,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Ploiești",
+        "Suceava"
+      ],
+      "features": [
+        "AWD",
+        "Panoramic Sunroof",
+        "Heated Seats",
+        "Bluetooth",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car024",
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": 2023,
+      "price": 77137,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Oradea",
+        "Iași",
+        "Ploiești"
+      ],
+      "features": [
+        "Wireless Charging",
+        "AWD",
+        "Heated Seats",
+        "Tow Package",
+        "Lane Assist",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car025",
+      "make": "Toyota",
+      "model": "Highlander",
+      "year": 2020,
+      "price": 34931,
+      "type": "SUV",
+      "fuel": "Hybrid",
+      "location": [
+        "Ploiești",
+        "Timișoara"
+      ],
+      "features": [
+        "Fast Charging",
+        "Navigation",
+        "Backup Camera",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car026",
+      "make": "Ford",
+      "model": "Explorer",
+      "year": 2018,
+      "price": 60460,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Sibiu",
+        "Oradea",
+        "Bacău",
+        "Brăila"
+      ],
+      "features": [
+        "Heated Seats",
+        "Leather Seats",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car027",
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2019,
+      "price": 54083,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Galați",
+        "Craiova",
+        "Sibiu"
+      ],
+      "features": [
+        "Lane Assist",
+        "Leather Seats",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car028",
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2022,
+      "price": 20593,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Cluj-Napoca",
+        "Sibiu",
+        "Constanța"
+      ],
+      "features": [
+        "Bluetooth",
+        "Leather Seats",
+        "Autopilot",
+        "Panoramic Sunroof",
+        "Tow Package",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car029",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2021,
+      "price": 22207,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Oradea",
+        "Brăila",
+        "Iași"
+      ],
+      "features": [
+        "Bluetooth",
+        "Tow Package",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car030",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2018,
+      "price": 72482,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "Timișoara",
+        "Iași",
+        "Galați"
+      ],
+      "features": [
+        "Navigation",
+        "Leather Seats",
+        "Panoramic Sunroof",
+        "Adaptive Cruise",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car031",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "year": 2020,
+      "price": 12026,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Iași",
+        "Galați",
+        "Ploiești"
+      ],
+      "features": [
+        "Bluetooth",
+        "Backup Camera",
+        "Panoramic Sunroof",
+        "Autopilot",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car032",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2020,
+      "price": 61892,
+      "type": "Coupe",
+      "fuel": "Diesel",
+      "location": [
+        "Oradea",
+        "Timișoara",
+        "Galați"
+      ],
+      "features": [
+        "Autopilot",
+        "AWD",
+        "Heated Seats",
+        "Leather Seats",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car033",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2020,
+      "price": 10628,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Galați",
+        "București"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Backup Camera",
+        "Leather Seats",
+        "Adaptive Cruise",
+        "Heated Seats",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car034",
+      "make": "Ford",
+      "model": "Explorer",
+      "year": 2021,
+      "price": 55793,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "Brașov",
+        "Oradea",
+        "București"
+      ],
+      "features": [
+        "Lane Assist",
+        "AWD",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car035",
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2019,
+      "price": 12008,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Suceava",
+        "Brăila"
+      ],
+      "features": [
+        "Lane Assist",
+        "Heated Seats",
+        "Adaptive Cruise",
+        "Bluetooth",
+        "Sunroof",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car036",
+      "make": "Tesla",
+      "model": "Model Y",
+      "year": 2023,
+      "price": 31090,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "București",
+        "Bacău",
+        "Suceava"
+      ],
+      "features": [
+        "AWD",
+        "Backup Camera",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car037",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2019,
+      "price": 79843,
+      "type": "Sedan",
+      "fuel": "Electric",
+      "location": [
+        "Oradea",
+        "Craiova",
+        "Suceava"
+      ],
+      "features": [
+        "AWD",
+        "Navigation",
+        "Fast Charging",
+        "Sunroof",
+        "Panoramic Sunroof",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car038",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2021,
+      "price": 78887,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Ploiești",
+        "Oradea"
+      ],
+      "features": [
+        "Fast Charging",
+        "Wireless Charging",
+        "Leather Seats",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car039",
+      "make": "BMW",
+      "model": "5 Series",
+      "year": 2023,
+      "price": 45771,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Iași",
+        "Ploiești",
+        "Oradea"
+      ],
+      "features": [
+        "Sunroof",
+        "AWD",
+        "Autopilot",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car040",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2019,
+      "price": 32074,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Galați",
+        "Cluj-Napoca",
+        "Brașov"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Lane Assist",
+        "Heated Seats",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car041",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2023,
+      "price": 76336,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Sibiu",
+        "Brăila",
+        "Iași"
+      ],
+      "features": [
+        "AWD",
+        "Navigation",
+        "Leather Seats",
+        "Lane Assist",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car042",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "year": 2021,
+      "price": 15224,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Timișoara",
+        "Suceava",
+        "Iași",
+        "București"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Backup Camera",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car043",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2018,
+      "price": 15689,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Timișoara",
+        "Craiova"
+      ],
+      "features": [
+        "Sunroof",
+        "Tow Package",
+        "Navigation",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car044",
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2018,
+      "price": 21441,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Suceava",
+        "Constanța",
+        "Craiova",
+        "Arad"
+      ],
+      "features": [
+        "Sunroof",
+        "Bluetooth",
+        "Panoramic Sunroof",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car045",
+      "make": "Dacia",
+      "model": "Sandero",
+      "year": 2020,
+      "price": 46485,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "Suceava",
+        "Sibiu",
+        "Oradea",
+        "Timișoara"
+      ],
+      "features": [
+        "AWD",
+        "Autopilot",
+        "Heated Seats",
+        "Wireless Charging",
+        "Backup Camera",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car046",
+      "make": "Nissan",
+      "model": "Leaf",
+      "year": 2024,
+      "price": 72073,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Constanța",
+        "Brașov",
+        "Suceava",
+        "Galați"
+      ],
+      "features": [
+        "Bluetooth",
+        "Adaptive Cruise",
+        "Sunroof",
+        "Fast Charging",
+        "Tow Package",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car047",
+      "make": "Toyota",
+      "model": "Highlander",
+      "year": 2021,
+      "price": 14597,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Brăila",
+        "Arad",
+        "Bacău",
+        "Iași"
+      ],
+      "features": [
+        "Navigation",
+        "Fast Charging",
+        "Panoramic Sunroof",
+        "AWD",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car048",
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2023,
+      "price": 74561,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Constanța",
+        "Galați",
+        "Oradea",
+        "Ploiești"
+      ],
+      "features": [
+        "Fast Charging",
+        "Wireless Charging",
+        "Backup Camera",
+        "Lane Assist",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car049",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2022,
+      "price": 60291,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "Galați",
+        "Brașov"
+      ],
+      "features": [
+        "Navigation",
+        "Autopilot",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car050",
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2022,
+      "price": 44506,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Constanța",
+        "Sibiu"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Leather Seats",
+        "Lane Assist",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car051",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "price": 22554,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Iași",
+        "Brașov"
+      ],
+      "features": [
+        "Navigation",
+        "Adaptive Cruise",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car052",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": 2024,
+      "price": 64517,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Arad",
+        "Timișoara",
+        "Suceava",
+        "Sibiu"
+      ],
+      "features": [
+        "Bluetooth",
+        "Wireless Charging",
+        "AWD",
+        "Fast Charging",
+        "Sunroof",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car053",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "price": 53227,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Arad",
+        "Constanța"
+      ],
+      "features": [
+        "Backup Camera",
+        "Bluetooth",
+        "Fast Charging",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car054",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2019,
+      "price": 39298,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Iași",
+        "Arad",
+        "Oradea"
+      ],
+      "features": [
+        "Lane Assist",
+        "Bluetooth",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car055",
+      "make": "Dacia",
+      "model": "Spring",
+      "year": 2020,
+      "price": 60186,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Cluj-Napoca",
+        "Brăila",
+        "Iași"
+      ],
+      "features": [
+        "Lane Assist",
+        "Leather Seats",
+        "Tow Package",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car056",
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2019,
+      "price": 25926,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Craiova",
+        "Iași",
+        "Arad",
+        "Oradea"
+      ],
+      "features": [
+        "Fast Charging",
+        "Wireless Charging",
+        "Sunroof",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car057",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2020,
+      "price": 59402,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Iași",
+        "Arad",
+        "Brăila",
+        "Bacău"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Leather Seats",
+        "Adaptive Cruise",
+        "Heated Seats",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car058",
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2020,
+      "price": 41494,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Galați",
+        "Oradea"
+      ],
+      "features": [
+        "Navigation",
+        "Leather Seats",
+        "Lane Assist",
+        "Autopilot",
+        "Wireless Charging",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car059",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2022,
+      "price": 78377,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Ploiești",
+        "București",
+        "Brașov"
+      ],
+      "features": [
+        "Lane Assist",
+        "Wireless Charging",
+        "Navigation",
+        "Fast Charging",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car060",
+      "make": "BMW",
+      "model": "i4",
+      "year": 2019,
+      "price": 9968,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Brașov",
+        "Galați",
+        "București",
+        "Constanța"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Adaptive Cruise",
+        "Bluetooth",
+        "Fast Charging",
+        "Navigation",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car061",
+      "make": "Ford",
+      "model": "Edge",
+      "year": 2018,
+      "price": 41877,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Galați",
+        "Timișoara",
+        "Craiova",
+        "Bacău"
+      ],
+      "features": [
+        "Leather Seats",
+        "Sunroof",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car062",
+      "make": "Audi",
+      "model": "A3",
+      "year": 2018,
+      "price": 57074,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Brașov",
+        "Bacău"
+      ],
+      "features": [
+        "Tow Package",
+        "Bluetooth",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car063",
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2019,
+      "price": 28248,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "București",
+        "Galați"
+      ],
+      "features": [
+        "Heated Seats",
+        "Fast Charging",
+        "Tow Package",
+        "Adaptive Cruise",
+        "AWD",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car064",
+      "make": "BMW",
+      "model": "i4",
+      "year": 2020,
+      "price": 31831,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Craiova",
+        "Galați",
+        "Iași"
+      ],
+      "features": [
+        "Backup Camera",
+        "Autopilot",
+        "Heated Seats",
+        "Adaptive Cruise",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car065",
+      "make": "Mercedes-Benz",
+      "model": "S-Class",
+      "year": 2024,
+      "price": 13016,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Iași",
+        "Arad",
+        "București",
+        "Sibiu"
+      ],
+      "features": [
+        "Tow Package",
+        "Autopilot",
+        "AWD",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car066",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2020,
+      "price": 56211,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Bacău",
+        "Iași"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "AWD",
+        "Leather Seats",
+        "Adaptive Cruise",
+        "Sunroof",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car067",
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2024,
+      "price": 49564,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Ploiești",
+        "Iași",
+        "Sibiu",
+        "Brașov"
+      ],
+      "features": [
+        "Sunroof",
+        "Adaptive Cruise",
+        "Fast Charging",
+        "Bluetooth",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car068",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2020,
+      "price": 50950,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Galați",
+        "Timișoara",
+        "Bacău"
+      ],
+      "features": [
+        "Navigation",
+        "Backup Camera",
+        "Heated Seats",
+        "Sunroof",
+        "Autopilot",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car069",
+      "make": "Toyota",
+      "model": "Highlander",
+      "year": 2019,
+      "price": 71060,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Arad",
+        "Brăila"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Lane Assist",
+        "Tow Package",
+        "Panoramic Sunroof",
+        "Bluetooth",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car070",
+      "make": "Ford",
+      "model": "Edge",
+      "year": 2024,
+      "price": 23966,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Timișoara",
+        "Iași"
+      ],
+      "features": [
+        "Lane Assist",
+        "Fast Charging",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car071",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2021,
+      "price": 63149,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Brașov",
+        "Sibiu"
+      ],
+      "features": [
+        "Bluetooth",
+        "AWD",
+        "Tow Package",
+        "Heated Seats",
+        "Wireless Charging",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car072",
+      "make": "Mercedes-Benz",
+      "model": "GLE",
+      "year": 2021,
+      "price": 69510,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "București",
+        "Ploiești",
+        "Brăila",
+        "Arad"
+      ],
+      "features": [
+        "Heated Seats",
+        "Leather Seats",
+        "Bluetooth",
+        "Panoramic Sunroof",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car073",
+      "make": "Hyundai",
+      "model": "Kona",
+      "year": 2022,
+      "price": 57808,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Arad",
+        "București",
+        "Timișoara"
+      ],
+      "features": [
+        "Sunroof",
+        "Lane Assist",
+        "Heated Seats",
+        "Panoramic Sunroof",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car074",
+      "make": "Honda",
+      "model": "Pilot",
+      "year": 2019,
+      "price": 10028,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Cluj-Napoca",
+        "Ploiești"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "AWD",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car075",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2021,
+      "price": 15781,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Cluj-Napoca",
+        "Galați"
+      ],
+      "features": [
+        "Backup Camera",
+        "Leather Seats",
+        "Tow Package",
+        "AWD",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car076",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2024,
+      "price": 26071,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Bacău",
+        "Galați"
+      ],
+      "features": [
+        "Leather Seats",
+        "Heated Seats",
+        "Bluetooth",
+        "Tow Package",
+        "Lane Assist",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car077",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "year": 2024,
+      "price": 27191,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "București",
+        "Brașov"
+      ],
+      "features": [
+        "Navigation",
+        "Leather Seats",
+        "Heated Seats",
+        "Autopilot",
+        "AWD",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car078",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2022,
+      "price": 76918,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Suceava",
+        "Arad",
+        "București"
+      ],
+      "features": [
+        "AWD",
+        "Autopilot",
+        "Navigation",
+        "Tow Package",
+        "Adaptive Cruise",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car079",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2023,
+      "price": 10842,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Cluj-Napoca",
+        "Bacău"
+      ],
+      "features": [
+        "Navigation",
+        "Backup Camera",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car080",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2018,
+      "price": 21549,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Ploiești",
+        "Brăila",
+        "Timișoara",
+        "Suceava"
+      ],
+      "features": [
+        "Autopilot",
+        "Fast Charging",
+        "AWD",
+        "Wireless Charging",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car081",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2022,
+      "price": 34269,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Arad",
+        "București"
+      ],
+      "features": [
+        "Fast Charging",
+        "Wireless Charging",
+        "Bluetooth",
+        "Backup Camera",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car082",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2019,
+      "price": 23624,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Brașov",
+        "Oradea"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Autopilot",
+        "Panoramic Sunroof",
+        "Navigation",
+        "Bluetooth",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car083",
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2018,
+      "price": 15980,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Brăila",
+        "Bacău",
+        "Iași"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Sunroof",
+        "Fast Charging",
+        "Lane Assist",
+        "Heated Seats",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car084",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "year": 2019,
+      "price": 57675,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Ploiești",
+        "Galați",
+        "Sibiu",
+        "Brăila"
+      ],
+      "features": [
+        "Tow Package",
+        "Adaptive Cruise",
+        "Navigation",
+        "Fast Charging",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car085",
+      "make": "Mercedes-Benz",
+      "model": "GLC",
+      "year": 2023,
+      "price": 26725,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Suceava",
+        "Iași"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Heated Seats",
+        "Backup Camera",
+        "Tow Package",
+        "Lane Assist",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car086",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2018,
+      "price": 40128,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Craiova",
+        "București"
+      ],
+      "features": [
+        "Heated Seats",
+        "Bluetooth",
+        "Fast Charging",
+        "Adaptive Cruise",
+        "Autopilot",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car087",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2020,
+      "price": 77268,
+      "type": "Hatchback",
+      "fuel": "Hybrid",
+      "location": [
+        "Constanța",
+        "Cluj-Napoca"
+      ],
+      "features": [
+        "Navigation",
+        "Autopilot",
+        "Sunroof",
+        "Wireless Charging",
+        "Panoramic Sunroof",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car088",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2022,
+      "price": 49390,
+      "type": "SUV",
+      "fuel": "Hybrid",
+      "location": [
+        "Suceava",
+        "Oradea",
+        "București",
+        "Craiova"
+      ],
+      "features": [
+        "Tow Package",
+        "Autopilot",
+        "Lane Assist",
+        "Panoramic Sunroof",
+        "Sunroof",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car089",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2018,
+      "price": 29769,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Oradea",
+        "Arad",
+        "Bacău",
+        "Galați"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Navigation",
+        "Autopilot",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car090",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2019,
+      "price": 55190,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Brașov",
+        "Iași"
+      ],
+      "features": [
+        "Lane Assist",
+        "Leather Seats",
+        "Wireless Charging",
+        "AWD",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car091",
+      "make": "Toyota",
+      "model": "RAV4",
+      "year": 2018,
+      "price": 65356,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Iași",
+        "Timișoara",
+        "Ploiești",
+        "Galați"
+      ],
+      "features": [
+        "Navigation",
+        "Bluetooth",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car092",
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2018,
+      "price": 69780,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Ploiești",
+        "Brăila",
+        "Constanța"
+      ],
+      "features": [
+        "Lane Assist",
+        "Adaptive Cruise",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car093",
+      "make": "Tesla",
+      "model": "Model X",
+      "year": 2022,
+      "price": 34169,
+      "type": "Sedan",
+      "fuel": "Electric",
+      "location": [
+        "Bacău",
+        "București"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Navigation",
+        "Sunroof",
+        "Fast Charging",
+        "Autopilot",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car094",
+      "make": "BMW",
+      "model": "X3",
+      "year": 2019,
+      "price": 56520,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Cluj-Napoca",
+        "București",
+        "Oradea",
+        "Brașov"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Fast Charging",
+        "Lane Assist",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car095",
+      "make": "Tesla",
+      "model": "Model Y",
+      "year": 2022,
+      "price": 62109,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "Galați",
+        "Suceava"
+      ],
+      "features": [
+        "Lane Assist",
+        "Leather Seats",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car096",
+      "make": "Mercedes-Benz",
+      "model": "GLC",
+      "year": 2020,
+      "price": 66108,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Brașov",
+        "Bacău",
+        "Brăila"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Bluetooth",
+        "Leather Seats",
+        "Fast Charging",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car097",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2020,
+      "price": 62997,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Craiova",
+        "Sibiu",
+        "Oradea"
+      ],
+      "features": [
+        "Fast Charging",
+        "Adaptive Cruise",
+        "Autopilot",
+        "Wireless Charging",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car098",
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2023,
+      "price": 38987,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Craiova",
+        "Galați"
+      ],
+      "features": [
+        "Bluetooth",
+        "Panoramic Sunroof",
+        "Fast Charging",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car099",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2023,
+      "price": 69652,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "Bacău",
+        "București"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Tow Package",
+        "AWD",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car100",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2021,
+      "price": 9260,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Oradea",
+        "Brăila",
+        "Sibiu",
+        "Ploiești"
+      ],
+      "features": [
+        "Backup Camera",
+        "Navigation",
+        "Panoramic Sunroof",
+        "Bluetooth",
+        "Heated Seats",
+        "Leather Seats"
+      ]
+    }
+  ]
+}

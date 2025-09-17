@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mihai",
+    "email": "",
+    "phone": "",
+    "preferredCar": "BMW i patru, modelul două mii douăzeci și patru, la prețul de treisprezece mii trei sute nouăzeci și unu de euro"
+  },
+  {
+    "name": "Mihai",
+    "email": "",
+    "phone": "",
+    "preferredCar": "Audi A șase, modelul două mii douăzeci și patru, la prețul de patruzeci și opt de mii cinci sute șaptezeci de euro"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "072435123",
+    "preferredCar": "Audi A șase, model două mii douăzeci și patru, SUV electric, cu acoperiș panoramic, pachet de remorcare și cameră de marșarier, disponibil în Galați, Sibiu și Suceava, la prețul de patruzeci și opt de mii cinci sute șaptezeci de euro"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "0723423464",
+    "preferredCar": "Audi A șase, model două mii douăzeci și patru, SUV electric, cu acoperiș panoramic, pachet de remorcare și cameră de marșarier, disponibilă în Galați, Sibiu și Suceava, la prețul de patruzeci și opt de mii cinci sute șaptezeci de euro"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "0723423464",
+    "preferredCar": "Audi A șase, model două mii douăzeci și patru, SUV electric, cu prețul de patruzeci și opt de mii cinci sute șaptezeci de euro, disponibil în Galați, Sibiu și Suceava, cu acoperiș panoramic, pachet de remorcare și cameră de marșarier"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "0723423464",
+    "preferredCar": "Audi A șase, două mii douăzeci și patru, SUV electric, cu prețul de patruzeci și opt de mii cinci sute șaptezeci de euro. Este disponibil în Galați, Sibiu și Suceava și are acoperiș panoramic, pachet de remorcare și cameră de rezervă"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "0723423464",
+    "preferredCar": "Audi A șase, model două mii douăzeci și patru, SUV electric, cu prețul de patruzeci și opt de mii cinci sute șaptezeci de euro, disponibil în Galați, Sibiu și Suceava, cu acoperiș panoramic, pachet de remorcare și cameră de rezervă"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "0723423464",
+    "preferredCar": "Audi A șase, două mii douăzeci și patru, SUV electric, cu prețul de patruzeci și opt de mii cinci sute șaptezeci de euro. Este disponibil în Galați, Sibiu și Suceava și are acoperiș panoramic, pachet de remorcare și cameră de rezervă"
+  },
+  {
+    "name": "lazar",
+    "email": "lazar@lazar.com",
+    "phone": "072222222",
+    "preferredCar": "Honda Accord din două mii douăzeci, un coupe pe benzină cu scaune din piele, Lane Assist, navigație, Adaptive Cruise și plafon panoramic, la prețul de cincizeci și șase de mii șase sute cincizeci de euro. Doriți să vă mai gândiți sau rămâne aceasta?"
+  },
+  {
+    "name": "Mihai",
+    "email": "mihai@test.com",
+    "phone": "0723423464",
+    "preferredCar": "Audi A6, 2024, SUV electric, 48570 EUR, disponibil în Galați, Sibiu și Suceava, cu plafon panoramic, pachet de remorcare și cameră de marșarier"
+  }
+]

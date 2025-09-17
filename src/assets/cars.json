@@ -1,0 +1,2040 @@
+{
+  "cars": [
+    {
+      "id": "car001",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2021,
+      "price": 49662,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Orlando",
+        "Detroit",
+        "Boston",
+        "Chicago"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Wireless Charging",
+        "Autopilot",
+        "Navigation",
+        "Sunroof",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car002",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "year": 2024,
+      "price": 70389,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Las Vegas",
+        "Chicago",
+        "Orlando",
+        "Boston"
+      ],
+      "features": [
+        "Autopilot",
+        "AWD",
+        "Sunroof",
+        "Wireless Charging",
+        "Leather Seats",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car003",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2022,
+      "price": 64972,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Seattle",
+        "Houston",
+        "Los Angeles"
+      ],
+      "features": [
+        "Bluetooth",
+        "Adaptive Cruise",
+        "Leather Seats",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car004",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2024,
+      "price": 59716,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Orlando",
+        "New York"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Heated Seats",
+        "Autopilot",
+        "Leather Seats",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car005",
+      "make": "Audi",
+      "model": "A3",
+      "year": 2020,
+      "price": 33087,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Atlanta",
+        "New York",
+        "Houston"
+      ],
+      "features": [
+        "Navigation",
+        "Wireless Charging",
+        "Lane Assist",
+        "Tow Package",
+        "Autopilot",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car006",
+      "make": "Ford",
+      "model": "Explorer",
+      "year": 2018,
+      "price": 46991,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Denver",
+        "Orlando",
+        "New York",
+        "Miami"
+      ],
+      "features": [
+        "Wireless Charging",
+        "AWD",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car007",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2019,
+      "price": 70929,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Los Angeles",
+        "Orlando"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Navigation",
+        "Sunroof",
+        "Heated Seats",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car008",
+      "make": "Audi",
+      "model": "A3",
+      "year": 2018,
+      "price": 19307,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Miami",
+        "Houston",
+        "San Francisco"
+      ],
+      "features": [
+        "Backup Camera",
+        "Adaptive Cruise",
+        "Sunroof",
+        "Leather Seats",
+        "AWD",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car009",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2023,
+      "price": 79281,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Boston",
+        "Detroit",
+        "Orlando",
+        "San Francisco"
+      ],
+      "features": [
+        "Sunroof",
+        "Tow Package",
+        "Fast Charging",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car010",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "price": 25803,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Portland",
+        "Dallas"
+      ],
+      "features": [
+        "Wireless Charging",
+        "AWD",
+        "Fast Charging",
+        "Adaptive Cruise",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car011",
+      "make": "Tesla",
+      "model": "Model X",
+      "year": 2020,
+      "price": 58733,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "Boston",
+        "Denver",
+        "Los Angeles"
+      ],
+      "features": [
+        "Leather Seats",
+        "Tow Package",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car012",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2023,
+      "price": 18875,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Detroit",
+        "Seattle",
+        "Atlanta"
+      ],
+      "features": [
+        "Tow Package",
+        "Sunroof",
+        "Autopilot",
+        "AWD",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car013",
+      "make": "Ford",
+      "model": "Explorer",
+      "year": 2021,
+      "price": 78318,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Houston",
+        "Dallas",
+        "Boston"
+      ],
+      "features": [
+        "Lane Assist",
+        "Fast Charging",
+        "Heated Seats",
+        "Tow Package",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car014",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2023,
+      "price": 79082,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Los Angeles",
+        "San Francisco",
+        "Boston"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Tow Package",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car015",
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "year": 2024,
+      "price": 77668,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Miami",
+        "Boston"
+      ],
+      "features": [
+        "Sunroof",
+        "Navigation",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car016",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "price": 74520,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Denver",
+        "New York"
+      ],
+      "features": [
+        "Fast Charging",
+        "Sunroof",
+        "Adaptive Cruise",
+        "Backup Camera",
+        "Heated Seats",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car017",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2020,
+      "price": 78798,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Orlando",
+        "Denver",
+        "Los Angeles",
+        "New York"
+      ],
+      "features": [
+        "AWD",
+        "Panoramic Sunroof",
+        "Heated Seats",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car018",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "price": 68984,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Chicago",
+        "Houston",
+        "Miami",
+        "Los Angeles"
+      ],
+      "features": [
+        "Backup Camera",
+        "Heated Seats",
+        "Wireless Charging",
+        "Adaptive Cruise",
+        "Autopilot",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car019",
+      "make": "Honda",
+      "model": "Pilot",
+      "year": 2020,
+      "price": 40523,
+      "type": "Hatchback",
+      "fuel": "Hybrid",
+      "location": [
+        "Houston",
+        "Boston",
+        "Denver"
+      ],
+      "features": [
+        "AWD",
+        "Tow Package",
+        "Wireless Charging",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car020",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2020,
+      "price": 54802,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Las Vegas",
+        "Chicago",
+        "Los Angeles",
+        "Detroit"
+      ],
+      "features": [
+        "Backup Camera",
+        "Panoramic Sunroof",
+        "Lane Assist",
+        "Heated Seats",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car021",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2023,
+      "price": 20811,
+      "type": "SUV",
+      "fuel": "Hybrid",
+      "location": [
+        "San Francisco",
+        "Las Vegas"
+      ],
+      "features": [
+        "AWD",
+        "Lane Assist",
+        "Autopilot",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car022",
+      "make": "Audi",
+      "model": "Q7",
+      "year": 2020,
+      "price": 61002,
+      "type": "Coupe",
+      "fuel": "Diesel",
+      "location": [
+        "Boston",
+        "Chicago"
+      ],
+      "features": [
+        "Tow Package",
+        "Leather Seats",
+        "Sunroof",
+        "Fast Charging",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car023",
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": 2018,
+      "price": 59363,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "Boston",
+        "New York"
+      ],
+      "features": [
+        "Sunroof",
+        "Adaptive Cruise",
+        "Heated Seats",
+        "Wireless Charging",
+        "Backup Camera",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car024",
+      "make": "Hyundai",
+      "model": "Kona",
+      "year": 2021,
+      "price": 53623,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Detroit",
+        "Portland",
+        "Houston",
+        "Chicago"
+      ],
+      "features": [
+        "Lane Assist",
+        "Backup Camera",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car025",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2023,
+      "price": 61194,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Las Vegas",
+        "San Francisco",
+        "Atlanta"
+      ],
+      "features": [
+        "Navigation",
+        "Wireless Charging",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car026",
+      "make": "Audi",
+      "model": "Q7",
+      "year": 2021,
+      "price": 49528,
+      "type": "Hatchback",
+      "fuel": "Hybrid",
+      "location": [
+        "Miami",
+        "Orlando"
+      ],
+      "features": [
+        "Navigation",
+        "AWD",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car027",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2019,
+      "price": 31717,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Seattle",
+        "San Francisco"
+      ],
+      "features": [
+        "Tow Package",
+        "Lane Assist",
+        "Sunroof",
+        "Leather Seats",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car028",
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2018,
+      "price": 36414,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Atlanta",
+        "Seattle",
+        "Orlando"
+      ],
+      "features": [
+        "Navigation",
+        "Panoramic Sunroof",
+        "Adaptive Cruise",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car029",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2019,
+      "price": 66803,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Dallas",
+        "Atlanta",
+        "Seattle"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Lane Assist",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car030",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2021,
+      "price": 42467,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Detroit",
+        "Portland",
+        "Houston"
+      ],
+      "features": [
+        "Fast Charging",
+        "Wireless Charging",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car031",
+      "make": "Nissan",
+      "model": "Leaf",
+      "year": 2021,
+      "price": 48474,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "Detroit",
+        "Atlanta",
+        "Denver"
+      ],
+      "features": [
+        "Bluetooth",
+        "Adaptive Cruise",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car032",
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2021,
+      "price": 30876,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Dallas",
+        "New York",
+        "Boston"
+      ],
+      "features": [
+        "Fast Charging",
+        "Panoramic Sunroof",
+        "Backup Camera",
+        "Heated Seats",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car033",
+      "make": "Ford",
+      "model": "Edge",
+      "year": 2019,
+      "price": 25907,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Dallas",
+        "Detroit"
+      ],
+      "features": [
+        "Bluetooth",
+        "Wireless Charging",
+        "Adaptive Cruise",
+        "Autopilot",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car034",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2023,
+      "price": 39713,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Detroit",
+        "New York",
+        "Boston",
+        "Dallas"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Tow Package",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car035",
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2022,
+      "price": 27671,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Denver",
+        "Orlando",
+        "Boston"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Sunroof",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car036",
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2021,
+      "price": 58488,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "New York",
+        "Houston"
+      ],
+      "features": [
+        "Tow Package",
+        "Sunroof",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car037",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2019,
+      "price": 79504,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Orlando",
+        "Houston",
+        "Portland",
+        "Atlanta"
+      ],
+      "features": [
+        "Autopilot",
+        "Heated Seats",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car038",
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": 2020,
+      "price": 70915,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Los Angeles",
+        "Dallas"
+      ],
+      "features": [
+        "Backup Camera",
+        "Leather Seats",
+        "Adaptive Cruise",
+        "Navigation",
+        "Panoramic Sunroof",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car039",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "price": 43403,
+      "type": "Coupe",
+      "fuel": "Diesel",
+      "location": [
+        "Los Angeles",
+        "Chicago",
+        "Detroit"
+      ],
+      "features": [
+        "Backup Camera",
+        "Heated Seats",
+        "Panoramic Sunroof",
+        "Navigation",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car040",
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "year": 2020,
+      "price": 67768,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Atlanta",
+        "Los Angeles"
+      ],
+      "features": [
+        "Sunroof",
+        "Navigation",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car041",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2020,
+      "price": 65149,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Detroit",
+        "Houston"
+      ],
+      "features": [
+        "Sunroof",
+        "Wireless Charging",
+        "Leather Seats",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car042",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "year": 2024,
+      "price": 69412,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "Orlando",
+        "Atlanta",
+        "Portland"
+      ],
+      "features": [
+        "Fast Charging",
+        "Adaptive Cruise",
+        "Backup Camera",
+        "Bluetooth",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car043",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2024,
+      "price": 53038,
+      "type": "Sedan",
+      "fuel": "Electric",
+      "location": [
+        "Seattle",
+        "Denver"
+      ],
+      "features": [
+        "Autopilot",
+        "Heated Seats",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car044",
+      "make": "Ford",
+      "model": "Explorer",
+      "year": 2023,
+      "price": 28279,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Houston",
+        "Portland"
+      ],
+      "features": [
+        "Backup Camera",
+        "Autopilot",
+        "Lane Assist",
+        "Navigation",
+        "Fast Charging",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car045",
+      "make": "BMW",
+      "model": "i4",
+      "year": 2021,
+      "price": 44734,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Portland",
+        "Orlando",
+        "Boston"
+      ],
+      "features": [
+        "Bluetooth",
+        "Leather Seats",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car046",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2019,
+      "price": 71664,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Orlando",
+        "Las Vegas",
+        "Boston"
+      ],
+      "features": [
+        "Lane Assist",
+        "Leather Seats",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car047",
+      "make": "Hyundai",
+      "model": "Kona",
+      "year": 2022,
+      "price": 71147,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Seattle",
+        "Miami",
+        "New York",
+        "San Francisco"
+      ],
+      "features": [
+        "AWD",
+        "Backup Camera",
+        "Wireless Charging",
+        "Sunroof",
+        "Heated Seats",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car048",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "price": 65571,
+      "type": "Coupe",
+      "fuel": "Diesel",
+      "location": [
+        "Denver",
+        "San Francisco"
+      ],
+      "features": [
+        "Heated Seats",
+        "Tow Package",
+        "Fast Charging",
+        "Adaptive Cruise",
+        "AWD",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car049",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "year": 2024,
+      "price": 22174,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Boston",
+        "Denver",
+        "Houston"
+      ],
+      "features": [
+        "Fast Charging",
+        "Leather Seats",
+        "Backup Camera",
+        "Tow Package",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car050",
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2022,
+      "price": 59248,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Miami",
+        "New York",
+        "Houston"
+      ],
+      "features": [
+        "Tow Package",
+        "Fast Charging",
+        "Leather Seats",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car051",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2020,
+      "price": 67194,
+      "type": "SUV",
+      "fuel": "Diesel",
+      "location": [
+        "San Francisco",
+        "Miami",
+        "Portland"
+      ],
+      "features": [
+        "Autopilot",
+        "Heated Seats",
+        "Sunroof",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car052",
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": 2020,
+      "price": 55333,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Detroit",
+        "Portland",
+        "Denver",
+        "Los Angeles"
+      ],
+      "features": [
+        "Leather Seats",
+        "Bluetooth",
+        "Wireless Charging",
+        "Fast Charging",
+        "AWD",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car053",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2021,
+      "price": 59992,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Los Angeles",
+        "Chicago"
+      ],
+      "features": [
+        "Leather Seats",
+        "Wireless Charging",
+        "Autopilot",
+        "Sunroof",
+        "Adaptive Cruise"
+      ]
+    },
+    {
+      "id": "car054",
+      "make": "Audi",
+      "model": "Q7",
+      "year": 2020,
+      "price": 21474,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Chicago",
+        "Seattle",
+        "Las Vegas"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Bluetooth",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car055",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2020,
+      "price": 34777,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Las Vegas",
+        "New York"
+      ],
+      "features": [
+        "Navigation",
+        "AWD",
+        "Bluetooth",
+        "Panoramic Sunroof"
+      ]
+    },
+    {
+      "id": "car056",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2019,
+      "price": 40782,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "San Francisco",
+        "Detroit",
+        "Los Angeles"
+      ],
+      "features": [
+        "Autopilot",
+        "Fast Charging",
+        "Navigation",
+        "Sunroof",
+        "Tow Package",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car057",
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": 2019,
+      "price": 28614,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Denver",
+        "Las Vegas",
+        "Chicago",
+        "Dallas"
+      ],
+      "features": [
+        "Autopilot",
+        "Sunroof",
+        "Backup Camera",
+        "AWD",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car058",
+      "make": "Tesla",
+      "model": "Model Y",
+      "year": 2020,
+      "price": 37788,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "San Francisco",
+        "Seattle",
+        "Los Angeles",
+        "Detroit"
+      ],
+      "features": [
+        "AWD",
+        "Wireless Charging",
+        "Panoramic Sunroof",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car059",
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2023,
+      "price": 26336,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Portland",
+        "Miami",
+        "San Francisco",
+        "Las Vegas"
+      ],
+      "features": [
+        "AWD",
+        "Autopilot",
+        "Wireless Charging",
+        "Heated Seats",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car060",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "price": 53713,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Detroit",
+        "Los Angeles",
+        "New York"
+      ],
+      "features": [
+        "Fast Charging",
+        "Adaptive Cruise",
+        "AWD",
+        "Leather Seats",
+        "Panoramic Sunroof",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car061",
+      "make": "Hyundai",
+      "model": "Kona",
+      "year": 2019,
+      "price": 74043,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Houston",
+        "Boston",
+        "Orlando"
+      ],
+      "features": [
+        "Lane Assist",
+        "Fast Charging",
+        "Wireless Charging",
+        "Adaptive Cruise",
+        "Sunroof",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car062",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2018,
+      "price": 20178,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Dallas",
+        "Chicago",
+        "Atlanta",
+        "Las Vegas"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Navigation",
+        "Fast Charging",
+        "Panoramic Sunroof",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car063",
+      "make": "Nissan",
+      "model": "Sentra",
+      "year": 2020,
+      "price": 34185,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Dallas",
+        "Chicago",
+        "Las Vegas"
+      ],
+      "features": [
+        "Tow Package",
+        "Fast Charging",
+        "Panoramic Sunroof",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car064",
+      "make": "Audi",
+      "model": "A6",
+      "year": 2020,
+      "price": 35550,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "Atlanta",
+        "Portland"
+      ],
+      "features": [
+        "Autopilot",
+        "Navigation",
+        "Heated Seats",
+        "Sunroof",
+        "Wireless Charging",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car065",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "price": 36895,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Dallas",
+        "Atlanta",
+        "Orlando"
+      ],
+      "features": [
+        "Lane Assist",
+        "Adaptive Cruise",
+        "Heated Seats",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car066",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "year": 2020,
+      "price": 43055,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Boston",
+        "Orlando",
+        "New York"
+      ],
+      "features": [
+        "Navigation",
+        "Tow Package",
+        "AWD"
+      ]
+    },
+    {
+      "id": "car067",
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2024,
+      "price": 51581,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Atlanta",
+        "New York"
+      ],
+      "features": [
+        "Fast Charging",
+        "Autopilot",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car068",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2024,
+      "price": 41526,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Los Angeles",
+        "Houston"
+      ],
+      "features": [
+        "Leather Seats",
+        "Bluetooth",
+        "Sunroof",
+        "AWD",
+        "Wireless Charging",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car069",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2023,
+      "price": 72563,
+      "type": "Truck",
+      "fuel": "Gasoline",
+      "location": [
+        "Denver",
+        "San Francisco",
+        "Seattle"
+      ],
+      "features": [
+        "Bluetooth",
+        "Lane Assist",
+        "Fast Charging",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car070",
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": 2024,
+      "price": 53881,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Atlanta",
+        "Los Angeles"
+      ],
+      "features": [
+        "Autopilot",
+        "Adaptive Cruise",
+        "Panoramic Sunroof",
+        "Heated Seats",
+        "Wireless Charging",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car071",
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2024,
+      "price": 55501,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "New York",
+        "Orlando",
+        "Boston"
+      ],
+      "features": [
+        "AWD",
+        "Sunroof",
+        "Panoramic Sunroof",
+        "Navigation",
+        "Leather Seats",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car072",
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2019,
+      "price": 33993,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Detroit",
+        "New York",
+        "Miami",
+        "Orlando"
+      ],
+      "features": [
+        "Leather Seats",
+        "Navigation",
+        "Bluetooth",
+        "AWD",
+        "Adaptive Cruise",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car073",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2022,
+      "price": 22780,
+      "type": "SUV",
+      "fuel": "Hybrid",
+      "location": [
+        "Boston",
+        "New York",
+        "Portland"
+      ],
+      "features": [
+        "Autopilot",
+        "Heated Seats",
+        "Panoramic Sunroof",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car074",
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2023,
+      "price": 56934,
+      "type": "Truck",
+      "fuel": "Hybrid",
+      "location": [
+        "New York",
+        "San Francisco",
+        "Portland",
+        "Atlanta"
+      ],
+      "features": [
+        "Lane Assist",
+        "Adaptive Cruise",
+        "Heated Seats",
+        "Fast Charging",
+        "AWD",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car075",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "price": 65715,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Orlando",
+        "Houston",
+        "Portland"
+      ],
+      "features": [
+        "Backup Camera",
+        "Lane Assist",
+        "Wireless Charging",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car076",
+      "make": "Audi",
+      "model": "A3",
+      "year": 2024,
+      "price": 75169,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Seattle",
+        "San Francisco",
+        "Atlanta"
+      ],
+      "features": [
+        "Backup Camera",
+        "Sunroof",
+        "AWD",
+        "Tow Package",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car077",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2022,
+      "price": 35879,
+      "type": "Sedan",
+      "fuel": "Diesel",
+      "location": [
+        "Portland",
+        "Boston",
+        "Miami",
+        "Los Angeles"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Tow Package",
+        "Leather Seats",
+        "Panoramic Sunroof",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car078",
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": 2022,
+      "price": 24554,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Boston",
+        "Atlanta",
+        "Orlando"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Tow Package",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car079",
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2022,
+      "price": 53568,
+      "type": "Truck",
+      "fuel": "Diesel",
+      "location": [
+        "Houston",
+        "New York",
+        "Las Vegas",
+        "Chicago"
+      ],
+      "features": [
+        "Navigation",
+        "Bluetooth",
+        "Lane Assist",
+        "Panoramic Sunroof",
+        "Fast Charging",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car080",
+      "make": "Hyundai",
+      "model": "Kona",
+      "year": 2023,
+      "price": 67638,
+      "type": "Hatchback",
+      "fuel": "Electric",
+      "location": [
+        "San Francisco",
+        "Orlando",
+        "Los Angeles",
+        "Denver"
+      ],
+      "features": [
+        "Sunroof",
+        "Fast Charging",
+        "Backup Camera"
+      ]
+    },
+    {
+      "id": "car081",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2023,
+      "price": 70523,
+      "type": "Sedan",
+      "fuel": "Gasoline",
+      "location": [
+        "Los Angeles",
+        "New York"
+      ],
+      "features": [
+        "Fast Charging",
+        "AWD",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car082",
+      "make": "BMW",
+      "model": "i4",
+      "year": 2023,
+      "price": 19601,
+      "type": "Sedan",
+      "fuel": "Electric",
+      "location": [
+        "Chicago",
+        "Seattle",
+        "Denver"
+      ],
+      "features": [
+        "Navigation",
+        "Heated Seats",
+        "Sunroof",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car083",
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2021,
+      "price": 42033,
+      "type": "SUV",
+      "fuel": "Hybrid",
+      "location": [
+        "Houston",
+        "Los Angeles",
+        "Orlando"
+      ],
+      "features": [
+        "Tow Package",
+        "Panoramic Sunroof",
+        "Bluetooth",
+        "Adaptive Cruise",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car084",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2022,
+      "price": 53935,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Miami",
+        "Detroit",
+        "Houston"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Leather Seats",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car085",
+      "make": "Audi",
+      "model": "A3",
+      "year": 2023,
+      "price": 44660,
+      "type": "Sedan",
+      "fuel": "Hybrid",
+      "location": [
+        "Dallas",
+        "Detroit",
+        "Chicago",
+        "Seattle"
+      ],
+      "features": [
+        "Leather Seats",
+        "Fast Charging",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car086",
+      "make": "Mercedes-Benz",
+      "model": "GLE",
+      "year": 2022,
+      "price": 71126,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Houston",
+        "Denver"
+      ],
+      "features": [
+        "AWD",
+        "Navigation",
+        "Adaptive Cruise",
+        "Autopilot",
+        "Fast Charging",
+        "Heated Seats"
+      ]
+    },
+    {
+      "id": "car087",
+      "make": "Hyundai",
+      "model": "Kona",
+      "year": 2020,
+      "price": 74582,
+      "type": "SUV",
+      "fuel": "Electric",
+      "location": [
+        "Miami",
+        "San Francisco",
+        "Houston",
+        "Los Angeles"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Lane Assist",
+        "Backup Camera",
+        "Leather Seats"
+      ]
+    },
+    {
+      "id": "car088",
+      "make": "Honda",
+      "model": "Pilot",
+      "year": 2022,
+      "price": 58829,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Los Angeles",
+        "Boston",
+        "Detroit"
+      ],
+      "features": [
+        "Tow Package",
+        "AWD",
+        "Leather Seats",
+        "Lane Assist"
+      ]
+    },
+    {
+      "id": "car089",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2018,
+      "price": 34568,
+      "type": "Truck",
+      "fuel": "Electric",
+      "location": [
+        "Orlando",
+        "Chicago"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Autopilot",
+        "Lane Assist",
+        "Sunroof"
+      ]
+    },
+    {
+      "id": "car090",
+      "make": "Ford",
+      "model": "Edge",
+      "year": 2024,
+      "price": 51467,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Denver",
+        "Dallas"
+      ],
+      "features": [
+        "Navigation",
+        "Leather Seats",
+        "Adaptive Cruise",
+        "Tow Package",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car091",
+      "make": "Nissan",
+      "model": "Leaf",
+      "year": 2023,
+      "price": 41992,
+      "type": "Coupe",
+      "fuel": "Hybrid",
+      "location": [
+        "Denver",
+        "Detroit"
+      ],
+      "features": [
+        "Lane Assist",
+        "Bluetooth",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "car092",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2019,
+      "price": 23427,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Chicago",
+        "Detroit",
+        "Miami"
+      ],
+      "features": [
+        "Tow Package",
+        "Heated Seats",
+        "Bluetooth",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car093",
+      "make": "Tesla",
+      "model": "Model Y",
+      "year": 2019,
+      "price": 51972,
+      "type": "Coupe",
+      "fuel": "Electric",
+      "location": [
+        "Los Angeles",
+        "New York",
+        "Orlando"
+      ],
+      "features": [
+        "Leather Seats",
+        "AWD",
+        "Heated Seats",
+        "Lane Assist",
+        "Bluetooth"
+      ]
+    },
+    {
+      "id": "car094",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2019,
+      "price": 75748,
+      "type": "Hatchback",
+      "fuel": "Hybrid",
+      "location": [
+        "Denver",
+        "Seattle",
+        "Atlanta"
+      ],
+      "features": [
+        "Wireless Charging",
+        "Heated Seats",
+        "Navigation",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car095",
+      "make": "Toyota",
+      "model": "RAV4",
+      "year": 2019,
+      "price": 32471,
+      "type": "Coupe",
+      "fuel": "Diesel",
+      "location": [
+        "Portland",
+        "Atlanta"
+      ],
+      "features": [
+        "Adaptive Cruise",
+        "Leather Seats",
+        "Panoramic Sunroof",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car096",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2023,
+      "price": 47656,
+      "type": "Hatchback",
+      "fuel": "Gasoline",
+      "location": [
+        "Boston",
+        "Orlando"
+      ],
+      "features": [
+        "Navigation",
+        "Autopilot",
+        "Adaptive Cruise",
+        "Sunroof",
+        "Fast Charging"
+      ]
+    },
+    {
+      "id": "car097",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2019,
+      "price": 38980,
+      "type": "Coupe",
+      "fuel": "Gasoline",
+      "location": [
+        "Chicago",
+        "Denver",
+        "San Francisco",
+        "New York"
+      ],
+      "features": [
+        "Fast Charging",
+        "Bluetooth",
+        "Autopilot"
+      ]
+    },
+    {
+      "id": "car098",
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "year": 2021,
+      "price": 26247,
+      "type": "Hatchback",
+      "fuel": "Diesel",
+      "location": [
+        "Dallas",
+        "San Francisco"
+      ],
+      "features": [
+        "AWD",
+        "Bluetooth",
+        "Backup Camera",
+        "Lane Assist",
+        "Wireless Charging"
+      ]
+    },
+    {
+      "id": "car099",
+      "make": "Honda",
+      "model": "Pilot",
+      "year": 2021,
+      "price": 65689,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Seattle",
+        "Las Vegas",
+        "Detroit",
+        "Atlanta"
+      ],
+      "features": [
+        "Panoramic Sunroof",
+        "Lane Assist",
+        "Navigation",
+        "Bluetooth",
+        "Tow Package"
+      ]
+    },
+    {
+      "id": "car100",
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2020,
+      "price": 34707,
+      "type": "SUV",
+      "fuel": "Gasoline",
+      "location": [
+        "Los Angeles",
+        "Seattle",
+        "Denver",
+        "San Francisco"
+      ],
+      "features": [
+        "Navigation",
+        "Autopilot",
+        "Wireless Charging"
+      ]
+    }
+  ]
+}
