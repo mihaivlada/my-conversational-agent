@@ -2,10 +2,19 @@ import fs from "fs";
 import path from "path";
 
 export interface UserInfo {
-    name: string;
+    nume: string;
     email: string;
-    phone: string;
-    preferredCar: string;
+    tel: string;
+    masina: {
+        marca: string;
+        model: string;
+        anFabricatie: number;
+        pret: number;
+        tipMasina: string;
+        combustibil: string;
+        locatiiDisponibile: string[];
+        dotari: string[];
+    };
 }
 
 export const saveUserInfo = (userInfo: UserInfo) => {

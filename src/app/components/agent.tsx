@@ -49,16 +49,16 @@ export const Agent = (props: any) => {
             console.log("Agent:", message);
             setMessages((prev) => [...prev, { text: message.message, isAgent: true }]);
 
-            const match = message.message.match(/[Mm]a[șs]ina ta preferat[ăa] este:?\s*(.+)/i);
-            if (match) {
-                const preferredCar = match[1].split(". Dore")[0].trim();
-                saveUser({
-                    name: dynamicVariables.user_name,
-                    email: dynamicVariables.user_email,
-                    phone: dynamicVariables.user_phone,
-                    preferredCar,
-                });
-            }
+            // const match = message.message.match(/[Mm]a[șs]ina ta preferat[ăa] este:?\s*(.+)/i);
+            // if (match) {
+            //     const preferredCar = match[1].split(". Dore")[0].trim();
+            //     saveUser({
+            //         name: dynamicVariables.user_name,
+            //         email: dynamicVariables.user_email,
+            //         phone: dynamicVariables.user_phone,
+            //         preferredCar,
+            //     });
+            // }
         },
         onDisconnect: (error) => {
             console.log("Conversation disconnected:", error);

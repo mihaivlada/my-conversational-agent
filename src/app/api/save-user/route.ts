@@ -5,10 +5,11 @@ export async function POST(req: Request) {
     try {
         const body = await req.json();
         const userInfo: UserInfo = body;
+        console.log("Received user info:", userInfo);
 
         saveUserInfo(userInfo);
 
-        return NextResponse.json({ success: true });
+        return NextResponse.json({ success: true, body: userInfo }, { status: 200 });
     } catch (err) {
         return NextResponse.json({ success: false, error: (err as Error).message }, { status: 500 });
     }
