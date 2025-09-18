@@ -3,7 +3,7 @@
 import { useConversation } from "@elevenlabs/react";
 import { useEffect, useState } from "react";
 import { Message } from "./message";
-import { UserInfo } from "../lib/saveUserInfo";
+import { Masina, UserInfo } from "../lib/saveUserInfo";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
@@ -46,7 +46,7 @@ export const Agent = () => {
                 console.log("getUserPhone called with:", tel);
                 setUserInfo((prev) => ({ ...prev, tel }));
             },
-            getUserFavoriteCar: (masina: UserInfo["masina"]) => {
+            getUserFavoriteCar: (masina: Masina) => {
                 console.log("getUserFavoriteCar called with:", masina);
                 setUserInfo((prev) => ({ ...prev, masina }));
             },

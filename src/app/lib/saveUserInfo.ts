@@ -5,16 +5,18 @@ export interface UserInfo {
     nume: string;
     email: string;
     tel: string;
-    masina: {
-        marca: string;
-        model: string;
-        anFabricatie: number;
-        pret: number;
-        tipMasina: string;
-        combustibil: string;
-        locatiiDisponibile: string[];
-        dotari: string[];
-    };
+    masina: Masina;
+}
+
+export interface Masina {
+    marca: string;
+    model: string;
+    anFabricatie: number;
+    pret: number;
+    tipMasina: string;
+    combustibil: string;
+    locatiiDisponibile: string[];
+    dotari: string[];
 }
 
 export const saveUserInfo = (userInfo: UserInfo) => {
