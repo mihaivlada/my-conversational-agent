@@ -5,9 +5,20 @@ import { useEffect, useState } from "react";
 import { Message } from "./message";
 import { UserInfo } from "../lib/saveUserInfo";
 
+async function getSignedUrl() {
+    const response = await fetch("/api/signed-url");
+    debugger;
+
+    if (!response.ok) {
+        throw new Error("Failed to get signed URL");
+    }
+
+    const data = await response.json();
+    return data.signedUrl;
+}
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Agent = (props: any) => {
-    // States
     const [messages, setMessages] = useState<{ text: string; isAgent: boolean }[]>([]);
     const [input, setInput] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
@@ -33,6 +44,7 @@ export const Agent = (props: any) => {
     };
 
     const conversation = useConversation({
+        textOnly: true,
         onMessage: (message) => {
             console.log("Agent:", message);
             setMessages((prev) => [...prev, { text: message.message, isAgent: true }]);
@@ -58,9 +70,9 @@ export const Agent = (props: any) => {
     const handleStartConversation = async () => {
         try {
             await conversation.startSession({
+                signedUrl: await getSignedUrl(),
                 agentId: agentId,
                 connectionType: "websocket",
-                dynamicVariables: props.dynamicVariables,
             });
             console.log("Conversation started");
         } catch (err) {
