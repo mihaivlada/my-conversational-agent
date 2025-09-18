@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-    const agentId = process.env.AGENT_ID!;
+    const agentId = process.env.NEXT_PUBLIC_AGENT_ID!;
 
     if (!agentId) {
         console.log("AGENT_ID is not set in environment variables");
@@ -13,7 +13,7 @@ export async function GET() {
         const res = await fetch(`https://api.elevenlabs.io/v1/convai/conversation/get-signed-url?agent_id=${agentId}`, {
             method: "GET",
             headers: {
-                "xi-api-key": process.env.ELEVENLABS_API_KEY!,
+                "xi-api-key": process.env.NEXT_PUBLIC_ELEVENLABS_API_KEY!,
             },
         }).then((res) => {
             return res.json();
