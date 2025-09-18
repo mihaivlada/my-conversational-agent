@@ -3,6 +3,7 @@
 import { useConversation } from "@elevenlabs/react";
 import { useState } from "react";
 import { Message } from "./message";
+import { string } from "@elevenlabs/elevenlabs-js/core/schemas";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
@@ -30,6 +31,11 @@ export const Agent = () => {
         },
         onDisconnect: (error) => {
             console.log("Conversation disconnected:", error);
+        },
+        clientTools: {
+            getUserName: (nume: string) => {
+                return `Numele meu este ${nume}`;
+            },
         },
     });
 
