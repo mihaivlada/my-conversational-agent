@@ -9,16 +9,15 @@ export async function GET() {
     }
 
     try {
-        console.log(`Fetching... ${agentId}`);
         const res = await fetch(`https://api.elevenlabs.io/v1/convai/conversation/get-signed-url?agent_id=${agentId}`, {
             method: "GET",
             headers: {
                 "xi-api-key": process.env.NEXT_PUBLIC_ELEVENLABS_API_KEY!,
             },
         }).then((res) => {
-            console.log(res);
             return res.json();
         });
+        console.log(res);
 
         return NextResponse.json({ signedUrl: res.signed_url });
     } catch (err) {
