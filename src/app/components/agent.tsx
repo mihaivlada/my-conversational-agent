@@ -4,7 +4,6 @@ import { useConversation } from "@elevenlabs/react";
 import { useEffect, useState } from "react";
 import { Message } from "./message";
 import { UserInfo } from "../lib/saveUserInfo";
-import { set } from "@elevenlabs/elevenlabs-js/core/schemas";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
