@@ -8,6 +8,7 @@ export async function GET(req: Request) {
     if (!nume) {
         return NextResponse.json({ error: "Missing nume parameter" }, { status: 400 });
     }
+    console.log("Received nume in get:", nume);
     return NextResponse.json({ name: nume });
 }
 
@@ -20,6 +21,7 @@ export async function POST(req: Request) {
         if (!nume) {
             return NextResponse.json({ error: "Missing nume in request body" }, { status: 400 });
         }
+        console.log("Received nume in post:", nume);
         return NextResponse.json({ name: nume });
     } catch (error) {
         return NextResponse.json({ error: (error as Error).message }, { status: 500 });
