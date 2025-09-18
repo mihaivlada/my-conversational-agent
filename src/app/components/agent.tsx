@@ -47,6 +47,10 @@ export const Agent = () => {
                 console.log("getUserPhone called with:", tel);
                 setUserInfo((prev) => ({ ...prev, tel }));
             },
+            getUserFavoriteCar: (masina: UserInfo["masina"]) => {
+                console.log("getUserFavoriteCar called with:", masina);
+                setUserInfo((prev) => ({ ...prev, masina }));
+            },
         },
     });
 
@@ -86,7 +90,7 @@ export const Agent = () => {
     };
 
     useEffect(() => {
-        if (userInfo.nume && userInfo.email && userInfo.tel) {
+        if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina) {
             // salvez in supabase
             console.log("Final user info:", userInfo);
         }
