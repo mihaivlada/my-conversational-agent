@@ -1,8 +1,10 @@
 "use client";
 
 import { useConversation } from "@elevenlabs/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Message } from "./message";
+import { UserInfo } from "../lib/saveUserInfo";
+import { set } from "@elevenlabs/elevenlabs-js/core/schemas";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
@@ -19,6 +21,7 @@ export const Agent = () => {
     const [messages, setMessages] = useState<{ text: string; isAgent: boolean }[]>([]);
     const [input, setInput] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
+    const [userInfo, setUserInfo] = useState<Partial<UserInfo>>({});
 
     const agentId: string = process.env.NEXT_PUBLIC_AGENT_ID!;
 
@@ -34,7 +37,15 @@ export const Agent = () => {
         clientTools: {
             getUserName: (nume: string) => {
                 console.log("getUserName called with:", nume);
-                return `Numele meu este ${nume}`;
+                setUserInfo((prev) => ({ ...prev, nume }));
+            },
+            getUserEmail: (email: string) => {
+                console.log("getUserEmail called with:", email);
+                setUserInfo((prev) => ({ ...prev, email }));
+            },
+            getUserPhone: (tel: string) => {
+                console.log("getUserPhone called with:", tel);
+                setUserInfo((prev) => ({ ...prev, tel }));
             },
         },
     });
@@ -73,6 +84,13 @@ export const Agent = () => {
 
         setInput("");
     };
+
+    useEffect(() => {
+        if (userInfo.nume && userInfo.email && userInfo.tel) {
+            // salvez in supabase
+            console.log("Final user info:", userInfo);
+        }
+    }, [userInfo]);
 
     return (
         <div className="flex flex-col items-center gap-4">
