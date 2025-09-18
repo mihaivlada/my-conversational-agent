@@ -1,13 +1,11 @@
 "use client";
 
 import { useConversation } from "@elevenlabs/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Message } from "./message";
-import { UserInfo } from "../lib/saveUserInfo";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
-    debugger;
 
     if (!response.ok) {
         throw new Error("Failed to get signed URL");
@@ -17,48 +15,18 @@ async function getSignedUrl() {
     return data.signedUrl;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const Agent = (props: any) => {
+export const Agent = () => {
     const [messages, setMessages] = useState<{ text: string; isAgent: boolean }[]>([]);
     const [input, setInput] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
 
     const agentId: string = process.env.NEXT_PUBLIC_AGENT_ID!;
-    const dynamicVariables = {
-        user_name: "John Doe",
-        user_email: "john.doe@example.com",
-        user_phone: "+1234567890",
-    };
-
-    const saveUser = async (userInfo: UserInfo) => {
-        try {
-            await fetch("/api/save-user", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(userInfo),
-            });
-            console.log("User info saved");
-        } catch (err) {
-            console.error("Error saving user info:", err);
-        }
-    };
 
     const conversation = useConversation({
         textOnly: true,
         onMessage: (message) => {
             console.log("Agent:", message);
             setMessages((prev) => [...prev, { text: message.message, isAgent: true }]);
-
-            // const match = message.message.match(/[Mm]a[șs]ina ta preferat[ăa] este:?\s*(.+)/i);
-            // if (match) {
-            //     const preferredCar = match[1].split(". Dore")[0].trim();
-            //     saveUser({
-            //         name: dynamicVariables.user_name,
-            //         email: dynamicVariables.user_email,
-            //         phone: dynamicVariables.user_phone,
-            //         preferredCar,
-            //     });
-            // }
         },
         onDisconnect: (error) => {
             console.log("Conversation disconnected:", error);
