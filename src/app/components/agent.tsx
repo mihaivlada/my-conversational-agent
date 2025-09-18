@@ -33,6 +33,7 @@ export const Agent = () => {
         },
         clientTools: {
             getUserName: (nume: string) => {
+                console.log("getUserName called with:", nume);
                 return `Numele meu este ${nume}`;
             },
         },
