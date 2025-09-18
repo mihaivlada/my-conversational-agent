@@ -34,21 +34,21 @@ export const Agent = () => {
             console.log("Conversation disconnected:", error);
         },
         clientTools: {
-            getUserName: (nume: string) => {
+            getUserName: (nume: { nume: string }) => {
                 console.log("getUserName called with:", nume);
-                setUserInfo((prev) => ({ ...prev, nume }));
+                setUserInfo((prev) => ({ ...prev, nume: nume.nume }));
             },
-            getUserEmail: (email: string) => {
+            getUserEmail: (email: { email: string }) => {
                 console.log("getUserEmail called with:", email);
-                setUserInfo((prev) => ({ ...prev, email }));
+                setUserInfo((prev) => ({ ...prev, email: email.email }));
             },
-            getUserPhone: (tel: string) => {
+            getUserPhone: (tel: { tel: string }) => {
                 console.log("getUserPhone called with:", tel);
-                setUserInfo((prev) => ({ ...prev, tel }));
+                setUserInfo((prev) => ({ ...prev, tel: tel.tel }));
             },
-            getUserFavoriteCar: (masina: Masina) => {
+            getUserFavoriteCar: (masina: { masina: Masina }) => {
                 console.log("getUserFavoriteCar called with:", masina);
-                setUserInfo((prev) => ({ ...prev, masina }));
+                setUserInfo((prev) => ({ ...prev, masina: masina.masina }));
             },
         },
     });
