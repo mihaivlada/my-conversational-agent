@@ -96,8 +96,9 @@ export const Agent = () => {
                 process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
             );
 
+            supabase.from("dotari").insert("Bluetooth 2");
+
             supabase
-                .schema("public")
                 .from("dotari")
                 .select()
                 .then((data) => console.log(data));
