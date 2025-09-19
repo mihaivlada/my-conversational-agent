@@ -98,10 +98,10 @@ export const Agent = () => {
 
             supabase.from("dotari").insert("Bluetooth 2");
 
-            supabase
-                .from("dotari")
-                .select()
-                .then((data) => console.log(data));
+            const x = supabase.from("dotari").select();
+
+            x.then((data) => console.log(data));
+            console.log(x);
 
             console.log("Final user info:", userInfo);
         }
