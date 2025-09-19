@@ -4,7 +4,7 @@ import { useConversation } from "@elevenlabs/react";
 import { useEffect, useState } from "react";
 import { Message } from "./message";
 import { Masina, UserInfo } from "../lib/saveUserInfo";
-import { createClient } from "../api/supabase/client";
+import { createClient } from "@supabase/supabase-js";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
@@ -91,10 +91,16 @@ export const Agent = () => {
     // && userInfo.email && userInfo.tel && userInfo.masina
     useEffect(() => {
         if (userInfo.nume) {
-            const supabase = createClient().then((a) => {
-                const x = a.from("dotari").select();
-                console.log(x);
-            });
+            const supabase = createClient(
+                process.env.NEXT_PUBLIC_SUPABASE_URL!,
+                process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+            );
+
+            supabase
+                .from("dotari")
+                .select()
+                .then((data) => console.log(data));
+
             console.log("Final user info:", userInfo);
         }
     }, [userInfo]);
