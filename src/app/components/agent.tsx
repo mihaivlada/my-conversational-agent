@@ -4,6 +4,7 @@ import { useConversation } from "@elevenlabs/react";
 import { useEffect, useState } from "react";
 import { Message } from "./message";
 import { Masina, UserInfo } from "../lib/saveUserInfo";
+import { createClient } from "../api/supabase/client";
 
 async function getSignedUrl() {
     const response = await fetch("/api/signed-url");
@@ -87,10 +88,13 @@ export const Agent = () => {
 
         setInput("");
     };
-
+    // && userInfo.email && userInfo.tel && userInfo.masina
     useEffect(() => {
-        if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina) {
-            // salvez in supabase
+        if (userInfo.nume) {
+            const supabase = createClient().then((a) => {
+                const x = a.from("dotari").select();
+                console.log(x);
+            });
             console.log("Final user info:", userInfo);
         }
     }, [userInfo]);
