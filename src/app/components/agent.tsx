@@ -97,7 +97,8 @@ export const Agent = () => {
             );
 
             supabase
-                .from("public.dotari")
+                .schema("public")
+                .from("dotari")
                 .select()
                 .then((data) => console.log(data));
 
