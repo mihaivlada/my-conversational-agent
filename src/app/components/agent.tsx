@@ -137,7 +137,7 @@ export const Agent = () => {
                 }));
                 await supabase.from("dotare_masina").insert(dotari_masini);
 
-                await supabase.from("userInfo").insert({
+                await supabase.from("user_info").insert({
                     nume: userInfo.nume,
                     email: userInfo.email,
                     tel: userInfo.tel,
@@ -145,7 +145,7 @@ export const Agent = () => {
                 });
             }
         }
-        saveData().then(res => console.log(res));
+        saveData().then((res) => console.log(res));
     }, [userInfo]);
 
     return (
