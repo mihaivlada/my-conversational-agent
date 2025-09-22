@@ -3,7 +3,8 @@
 import { useConversation } from "@elevenlabs/react";
 import { useEffect, useState } from "react";
 import { Message } from "./message";
-import { Masina, UserInfo } from "../lib/saveUserInfo";
+import { UserInfo } from "../lib/userInfo";
+import { Masina } from "../lib/masina";
 import { createClient } from "@supabase/supabase-js";
 
 async function getSignedUrl() {
