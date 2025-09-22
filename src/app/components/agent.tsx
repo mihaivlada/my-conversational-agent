@@ -97,7 +97,8 @@ export const Agent = () => {
 
     useEffect(() => {
         async function saveData() {
-            if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina && userLocations.length > 0) {
+            if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina) {
+                console.log("Saving data...");
                 const supabase = createClient(
                     process.env.NEXT_PUBLIC_SUPABASE_URL!,
                     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
@@ -107,14 +108,6 @@ export const Agent = () => {
                     .from("locatii")
                     .upsert(
                         userInfo.masina?.locatiiDisponibile.map((l) => ({ locatie: l })),
-                        { onConflict: "locatie" }
-                    )
-                    .select("id");
-
-                const locatii_user = await supabase
-                    .from("locatii")
-                    .upsert(
-                        userLocations.map((l) => ({ locatie: l })),
                         { onConflict: "locatie" }
                     )
                     .select("id");
@@ -162,6 +155,13 @@ export const Agent = () => {
                     })
                     .select("id");
 
+                const locatii_user = await supabase
+                    .from("locatii")
+                    .upsert(
+                        userLocations.map((l) => ({ locatie: l })),
+                        { onConflict: "locatie" }
+                    )
+                    .select("id");
                 const locatii_user_model = locatii_user.data?.map((l) => ({
                     id_locatie: l.id,
                     id_user: id_user.data![0].id,
@@ -169,7 +169,7 @@ export const Agent = () => {
                 await supabase.from("locatie_user").insert(locatii_user_model);
             }
         }
-        saveData().then((res) => console.log(res));
+        saveData().then((res) => console.log("final response: ", res));
     }, [userInfo, userLocations]);
 
     return (
