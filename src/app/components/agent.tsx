@@ -88,23 +88,64 @@ export const Agent = () => {
 
         setInput("");
     };
-    // && userInfo.email && userInfo.tel && userInfo.masina
+
     useEffect(() => {
-        if (userInfo.nume) {
-            const supabase = createClient(
-                process.env.NEXT_PUBLIC_SUPABASE_URL!,
-                process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-            );
+        async function saveData() {
+            if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina) {
+                const supabase = createClient(
+                    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+                    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+                );
 
-            supabase.from("dotari").insert("Bluetooth 2");
+                const locatii = await supabase
+                    .from("locatii")
+                    .upsert(
+                        userInfo.masina?.locatiiDisponibile.map((l) => ({ locatie: l })),
+                        { onConflict: "locatie" }
+                    )
+                    .select("id");
 
-            const x = supabase.from("dotari").select();
+                const dotari = await supabase
+                    .from("dotari")
+                    .upsert(
+                        userInfo.masina?.dotari.map((d) => ({ dotare: d })),
+                        { onConflict: "dotare" }
+                    )
+                    .select("id");
 
-            x.then((data) => console.log(data));
-            console.log(x);
+                const masini = await supabase
+                    .from("masini")
+                    .insert({
+                        marca: userInfo.masina?.marca,
+                        model: userInfo.masina?.model,
+                        an_fabricatie: userInfo.masina?.anFabricatie,
+                        pret: userInfo.masina?.pret,
+                        tip_masina: userInfo.masina?.tipMasina,
+                        combustibil: userInfo.masina?.combustibil,
+                    })
+                    .select("id");
 
-            console.log("Final user info:", userInfo);
+                const locatii_masini = locatii.data?.map((l) => ({
+                    id_masina: masini.data![0].id,
+                    id_locatie: l.id,
+                }));
+                await supabase.from("locatie_masina").insert(locatii_masini);
+
+                const dotari_masini = dotari.data?.map((d) => ({
+                    id_masina: masini.data![0].id,
+                    id_dotare: d.id,
+                }));
+                await supabase.from("dotare_masina").insert(dotari_masini);
+
+                await supabase.from("userInfo").insert({
+                    nume: userInfo.nume,
+                    email: userInfo.email,
+                    tel: userInfo.tel,
+                    id_masina: masini.data![0].id,
+                });
+            }
         }
+        saveData().then(res => console.log(res));
     }, [userInfo]);
 
     return (
