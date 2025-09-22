@@ -23,6 +23,7 @@ export const Agent = () => {
     const [input, setInput] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
     const [userInfo, setUserInfo] = useState<Partial<UserInfo>>({});
+    const [userLocations, setUserLocations] = useState<string[]>([]);
 
     const agentId: string = process.env.NEXT_PUBLIC_AGENT_ID!;
 
@@ -47,6 +48,10 @@ export const Agent = () => {
             getUserPhone: (tel: { tel: string }) => {
                 console.log("getUserPhone called with:", tel);
                 setUserInfo((prev) => ({ ...prev, tel: tel.tel }));
+            },
+            getUserLocations: (locations: { locations: string[] }) => {
+                console.log("getUserLocations called with: ", locations.locations);
+                setUserLocations(locations.locations);
             },
             getUserFavoriteCar: (masina: { masina: Masina }) => {
                 console.log("getUserFavoriteCar called with:", masina);
@@ -92,7 +97,7 @@ export const Agent = () => {
 
     useEffect(() => {
         async function saveData() {
-            if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina) {
+            if (userInfo.nume && userInfo.email && userInfo.tel && userInfo.masina && userLocations.length > 0) {
                 const supabase = createClient(
                     process.env.NEXT_PUBLIC_SUPABASE_URL!,
                     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
@@ -102,6 +107,14 @@ export const Agent = () => {
                     .from("locatii")
                     .upsert(
                         userInfo.masina?.locatiiDisponibile.map((l) => ({ locatie: l })),
+                        { onConflict: "locatie" }
+                    )
+                    .select("id");
+
+                const locatii_user = await supabase
+                    .from("locatii")
+                    .upsert(
+                        userLocations.map((l) => ({ locatie: l })),
                         { onConflict: "locatie" }
                     )
                     .select("id");
@@ -136,18 +149,28 @@ export const Agent = () => {
                     id_masina: masini.data![0].id,
                     id_dotare: d.id,
                 }));
+
                 await supabase.from("dotare_masina").insert(dotari_masini);
 
-                await supabase.from("user_info").insert({
-                    nume: userInfo.nume,
-                    email: userInfo.email,
-                    tel: userInfo.tel,
-                    id_masina: masini.data![0].id,
-                });
+                const id_user = await supabase
+                    .from("user_info")
+                    .insert({
+                        nume: userInfo.nume,
+                        email: userInfo.email,
+                        tel: userInfo.tel,
+                        id_masina: masini.data![0].id,
+                    })
+                    .select("id");
+
+                const locatii_user_model = locatii_user.data?.map((l) => ({
+                    id_locatie: l.id,
+                    id_user: id_user.data![0].id,
+                }));
+                await supabase.from("locatie_user").insert(locatii_user_model);
             }
         }
         saveData().then((res) => console.log(res));
-    }, [userInfo]);
+    }, [userInfo, userLocations]);
 
     return (
         <div className="flex flex-col items-center gap-4">
